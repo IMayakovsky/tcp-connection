@@ -1,0 +1,18 @@
+<<<<<<< HEAD
+The function reads from the stream pointed to by stream and places the bytes read into the array pointed to by ptr, It will stop reading when any of the following conditions are true:
+
+It has read limit elements of size size, or
+It reaches the end of file, or
+A read error occurs.
+fread() gives you as much control as fgetc(), and has the advantage of being able to read more than one character in a single I/O operation. In fact, memory permitting, you can read the entire file into an array and do all of your processing in memory. This has significant performance advantages.
+
+=======
+The function reads from the stream pointed to by stream and places the bytes read into the array pointed to by ptr, It will stop reading when any of the following conditions are true:
+
+It has read limit elements of size size, or
+It reaches the end of file, or
+A read error occurs.
+fread() gives you as much control as fgetc(), and has the advantage of being able to read more than one character in a single I/O operation. In fact, memory permitting, you can read the entire file into an array and do all of your processing in memory. This has significant performance advantages.
+
+>>>>>>> origin
+fread() is often used to read fixed-length data records directly into structs, but you can use it to read any file. It's my personal choice for reading most disk files.The function reads from the stream pointed to by stream and places the bytes read into the array pointed to by ptr, It will stop reading when any of the following conditions are true:
